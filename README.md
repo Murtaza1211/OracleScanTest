@@ -29,7 +29,7 @@ To run the `OracleScanTest` program, follow these steps:
 
 1. Ensure that you have the following prerequisites installed and configured:
    - Java Development Kit (JDK): [Download and install JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-   - Oracle JDBC driver: [Download the Oracle JDBC driver](https://www.oracle.com/database/technologies/jdbc-driver-ucp-downloads.html) and include it in the project's classpath.
+   - Oracle JDBC driver: [Download the Oracle JDBC driver](https://www.oracle.com/database/technologies/appdev/jdbc-downloads.html) and include it in the project's classpath.
 
 2. Compile the Java file using the Java compiler. Open a command prompt or terminal and navigate to the directory where the `OracleScanTest.java` file is located. Run the following command:
    ```
