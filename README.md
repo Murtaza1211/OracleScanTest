@@ -21,17 +21,34 @@ In the `OracleScanTest` class, modify the following variables according to your 
 - `retryInterval`: The interval (in milliseconds) between retry attempts.
 - `timeout`: The timeout (in milliseconds) for each attempt.
 
+Certainly! Here's an example section you can add to the README file to provide instructions for running the program:
+
 ## Running the Application
 
-1. Ensure that you have the necessary prerequisites installed and configured.
-2. Compile the Java file using the Java compiler (`javac`).
-3. Run the compiled Java class (`java OracleScanTest`) to execute the program.
-4. The program will attempt to establish a connection to the Oracle database and perform a query. It will display the query result if successful.
-5. The program will retry the connection in case of failure, based on the specified retry parameters.
-6. The program will continue iterating until the specified number of iterations is reached or the timeout is reached.
+To run the `OracleScanTest` program, follow these steps:
 
-Note: Make sure you have the Oracle JDBC driver included in your classpath during compilation and execution.
+1. Ensure that you have the following prerequisites installed and configured:
+   - Java Development Kit (JDK): [Download and install JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+   - Oracle JDBC driver: [Download the Oracle JDBC driver](https://www.oracle.com/database/technologies/jdbc-driver-ucp-downloads.html) and include it in the project's classpath.
+
+2. Compile the Java file using the Java compiler. Open a command prompt or terminal and navigate to the directory where the `OracleScanTest.java` file is located. Run the following command:
+   ```
+   javac OracleScanTest.java
+   ```
+
+3. Once the compilation is successful, you can run the program by executing the compiled Java class. Use the following command:
+   ```
+   java OracleScanTest
+   ```
+
+4. The program will attempt to establish a connection to the Oracle database using the provided configuration parameters. It will perform a simple query and display the result if the connection is successful.
+
+5. The program is designed to handle connection failures gracefully by retrying based on the specified retry parameters. It will continue iterating until the specified number of iterations is reached or the timeout is reached.
+
+Note: Make sure you have the Oracle JDBC driver included in your classpath during compilation and execution. If you encounter any issues, double-check that the driver JAR file is correctly referenced.
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+Feel free to customize the instructions based on your specific environment and requirements.
